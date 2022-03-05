@@ -1,6 +1,7 @@
+
 .portifolio_container {
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(3, 0.3fr);
     gap: 3rem;
 
 }
@@ -20,20 +21,19 @@
 }
 
 .portifolio_item-img {
-    border-radius: 1.5rem;
+    border-radius: 3rem;
     overflow: hidden;
 
 }
 
 .portifolio_item h3{
-    margin: 1.2rem 0 2rem;
+    margin: 1rem 0 1rem;
 }
 
 .portifolio_item-cta{
     display: flex;
     gap: 1rem;
-    margin-bottom: 1rem;
-
+    margin-bottom: 0.5rem;
 }
 
 
@@ -42,6 +42,8 @@
         grid-template-columns: 1fr 1fr;
         gap: 1.2rem;
     }
+
+    
 }
 
 @media screen and (max-width: 600px) {

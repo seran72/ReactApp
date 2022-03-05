@@ -28,8 +28,8 @@
 }
 
 .service_head h3 {
-    color: var(--color-bg);
-    font-size: 1rem;
+    color: black;
+    font-size: 1.2rem;
     text-align: center;
 }
 
@@ -62,7 +62,7 @@
     }
 
     .service {
-        height: auto;
+        height: 68vh;
     }
 }
 

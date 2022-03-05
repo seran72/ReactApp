@@ -1,7 +1,7 @@
 .experience_container {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    gap: 2rem;
+    gap: 1rem;
 }
 
 .experience_container > div {
@@ -51,7 +51,7 @@
 
 @media screen and (max-width: 1024px) {
     .experience_container {
-        grid-template-columns: 1fr;
+        grid-template-columns: 1fr ;
     }
 
     .experience_container > div {

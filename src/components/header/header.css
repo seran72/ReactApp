@@ -10,6 +10,20 @@ header {
     position: relative;
 }
 
+.tm-hero-text-container {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+  }
+  
+  .tm-hero-text-container-inner {
+    margin-top: -90px;
+    color: #3496d8;
+    text-align: center;
+  }
 
 
 /*===========CTA=================*/

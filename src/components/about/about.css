@@ -1,7 +1,7 @@
 .about_container {
     display: grid;
     grid-template-columns: 35% 50%;
-    gap: 15%;
+    gap: 12%;
 
 }
 
@@ -57,23 +57,24 @@
 
 .about_icon {
     color: var(--color-primary);
-    font-size: 1,4rem;
+    font-size: 1, 4rem;
     margin-bottom: 1rem;
 }
 
 .about_card h5 {
     font-size: 0.95rem;
+    color: orange;
 }
 
 .about_card small {
     font-size: 0.7rem;
-    color: var(--color-light);
+    color: var(--color-white);
 
 }
 
 .about_content p {
     margin: 2rem 0 2.6rem;
-    color: var(--color-light);
+    color: var(--color-white);
 
 }
 
@@ -81,7 +82,7 @@
 @media screen and (max-width: 1024px) {
     .about_container {
         grid-template-columns: 1fr;
-        gap: 0;
+        gap:1rem;
     }
 
     .about_me {
@@ -114,3 +115,4 @@
         margin: 1.5rem 0;
     }
 }
+

@@ -6,35 +6,35 @@ import {BiCheck} from 'react-icons/bi'
 const Services = () => {
   return (
     <section id='services'>
-      <h5>What I offer:</h5>
-      <h2>Services</h2>
+      <h5>experience</h5>
+      <h2>More In Depth</h2>
 
       <div className='container services_container'>
         <article className='service'>
           <div className='service_head'>
-            <h3>UI/UX Design</h3>
+            <h3>Software Engineering</h3>
           </div>
 
           <ul className='service_list'>
             <li>
                 <BiCheck className='service_list-icon'/>
-                <p>You don't need to learn and configure many build tools. </p>
+                <p>Java</p>
             </li>
             <li>
                 <BiCheck className='service_list-icon'/>
-                <p>You don't need to learn and configure many build tools. </p>
+                <p>Python</p>
             </li>
             <li>
                 <BiCheck className='service_list-icon'/>
-                <p>You don't need to learn and configure many build tools. </p>
+                <p>Javascript </p>
             </li>
             <li>
                 <BiCheck className='service_list-icon'/>
-                <p>You don't need to learn and configure many build tools. </p>
+                <p>x86 Assembly </p>
             </li>
             <li>
                 <BiCheck className='service_list-icon'/>
-                <p>You don't need to learn and configure many build tools. </p>
+                <p>Vs Code </p>
             </li>
 
           </ul>
@@ -42,29 +42,29 @@ const Services = () => {
 
         <article className='service'>
           <div className='service_head'>
-            <h3>Web Development</h3>
+            <h3>Offensive Security</h3>
           </div>
 
           <ul className='service_list'>
             <li>
                 <BiCheck className='service_list-icon'/>
-                <p>You don't need to learn and configure many build tools. </p>
+                <p>Nmap </p>
             </li>
             <li>
                 <BiCheck className='service_list-icon'/>
-                <p>You don't need to learn and configure many build tools. </p>
+                <p>Wireshark </p>
             </li>
             <li>
                 <BiCheck className='service_list-icon'/>
-                <p>You don't need to learn and configure many build tools. </p>
+                <p>Metasploit </p>
             </li>
             <li>
                 <BiCheck className='service_list-icon'/>
-                <p>You don't need to learn and configure many build tools. </p>
+                <p>John the Ripper </p>
             </li>
             <li>
                 <BiCheck className='service_list-icon'/>
-                <p>You don't need to learn and configure many build tools. </p>
+                <p>Kali Linux</p>
             </li>
             
           </ul>
@@ -72,29 +72,29 @@ const Services = () => {
 
         <article className='service'>
           <div className='service_head'>
-            <h3>Content Creation</h3>
+            <h3>Machine Learning</h3>
           </div>
 
           <ul className='service_list'>
             <li>
                 <BiCheck className='service_list-icon'/>
-                <p>You don't need to learn and configure many build tools. </p>
+                <p>C++</p>
             </li>
             <li>
                 <BiCheck className='service_list-icon'/>
-                <p>You don't need to learn and configure many build tools. </p>
+                <p>Python</p>
             </li>
             <li>
                 <BiCheck className='service_list-icon'/>
-                <p>You don't need to learn and configure many build tools. </p>
+                <p>Numpy </p>
             </li>
             <li>
                 <BiCheck className='service_list-icon'/>
-                <p>You don't need to learn and configure many build tools. </p>
+                <p>Keras</p>
             </li>
             <li>
                 <BiCheck className='service_list-icon'/>
-                <p>You don't need to learn and configure many build tools. </p>
+                <p>Classification </p>
             </li>
             
           </ul>

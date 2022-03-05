@@ -1,6 +1,6 @@
 import React from 'react'
 import './portfolio.css'
-import IMG1 from '../../img/kk.jpg'
+import IMG1 from '../../img/mm.jpg'
 import IMG2 from '../../img/sac.jpg'
 import IMG3 from '../../img/sac.jpg'
 import IMG4 from '../../img/sac.jpg'
@@ -29,60 +29,60 @@ const Portfolio = () => {
           <div className='portifolio_item-img'>
             <img src={IMG1} alt=''/>
           </div>
-            <h3>This is a Portifolio item title</h3>
+          <h3>OnStarter Game </h3>
             <div className='portifolio_item-cta'>
             <a href='https://github.com' className='btn' target='_blank'>Github</a>
-            <a href='https://dribbble.com/' className='btn btn-primary' target='_blank' >Live Demo</a>
+            <a href='https://dribbble.com/' className='btn btn-secondary'target='_blank' >Live Demo</a>
             </div>
         </article>
         <article className='portifolio_item'>
           <div className='portifolio_item-img'>
             <img src={IMG1} alt=''/>
           </div>
-            <h3>This is a Portifolio item title</h3>
+          <h3>Item Price Teller</h3>
             <div className='portifolio_item-cta'>
             <a href='https://github.com' className='btn' target='_blank'>Github</a>
-            <a href='https://dribbble.com/' className='btn btn-primary' target='_blank' >Live Demo</a>
+            <a href='https://dribbble.com/' className='btn btn-secondary' target='_blank' >Live Demo</a>
             </div>
         </article>
         <article className='portifolio_item'>
           <div className='portifolio_item-img'>
             <img src={IMG1} alt=''/>
           </div>
-            <h3>This is a Portifolio item title</h3>
+          <h3>Vehicle Classification AI </h3>
             <div className='portifolio_item-cta'>
             <a href='https://github.com' className='btn' target='_blank'>Github</a>
-            <a href='https://dribbble.com/' className='btn btn-primary' target='_blank' >Live Demo</a>
+            <a href='https://dribbble.com/' className='btn btn-secondary'target='_blank' >Live Demo</a>
             </div>
         </article>
         <article className='portifolio_item'>
           <div className='portifolio_item-img'>
             <img src={IMG1} alt=''/>
           </div>
-            <h3>This is a Portifolio item title</h3>
+          <h3>Yelp Business Star Rating Prediction AI</h3>
             <div className='portifolio_item-cta'>
             <a href='https://github.com' className='btn' target='_blank'>Github</a>
-            <a href='https://dribbble.com/' className='btn btn-primary' target='_blank' >Live Demo</a>
+            <a href='https://dribbble.com/' className='btn btn-secondary'target='_blank' >Live Demo</a>
             </div>
         </article>
         <article className='portifolio_item'>
           <div className='portifolio_item-img'>
             <img src={IMG1} alt=''/>
           </div>
-            <h3>This is a Portifolio item title</h3>
+          <h3>React Website Application</h3>
             <div className='portifolio_item-cta'>
             <a href='https://github.com' className='btn' target='_blank'>Github</a>
-            <a href='https://dribbble.com/' className='btn btn-primary' target='_blank' >Live Demo</a>
+            <a href='https://dribbble.com/' className='btn btn-secondary'target='_blank' >Live Demo</a>
             </div>
         </article>
         <article className='portifolio_item'>
           <div className='portifolio_item-img'>
             <img src={IMG1} alt=''/>
           </div>
-            <h3>This is a Portifolio item title</h3>
+            <h3> AI-based Network Intrusion Detection System </h3>
             <div className='portifolio_item-cta'>
             <a href='https://github.com' className='btn' target='_blank'>Github</a>
-            <a href='https://dribbble.com/' className='btn btn-primary' target='_blank' >Live Demo</a>
+            <a href='https://dribbble.com/' className='btn btn-secondary' target='_blank' >Live Demo</a>
             </div>
         </article>
       </div>

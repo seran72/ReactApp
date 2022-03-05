@@ -18,34 +18,44 @@ const About = () => {
         </div>
 
         <div className='about_content'>
+        
+
           <div className='about_cards'>
             <article className='about_card'>
             <FaAward className='about_icon'/>
               <h5>Experience</h5>
-              <small>3+ years in the Cyber Sec industry</small>
+              <small>- IT</small> <br></br>
+              <small>- Software Engineering</small><br></br>
+              <small>- Cyber Security</small><br></br>
+              <small>- Machine Learning</small>
             </article>
 
             <article className='about_card'>
             <FiUsers className='about_icon'/>
-              <h5>Clients</h5>
-              <small>300+ Clients world wide.</small>
+              <h5>I like:</h5>
+              <small>- Soccer</small> <br></br>
+              <small>- Reading</small> <br></br>
+              <small>- Programming</small><br></br>
+              <small>- Golden Retrievers</small> 
             </article>
 
             <article className='about_card'>
             <VscFolderLibrary className='about_icon'/>
-              <h5>Projects</h5>
-              <small>100+ completed personal projects.</small>
+              <h5>Career Status</h5>
+              <small>- Actively looking for opportunities.</small>
             </article>
           </div>
 
           <p>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod 
-          incididunt ut labore et dolore magna aliqua. Malesuada bibendum arcu vitae 
-          elementum curabitur vitae nunc. Lorem ipsum dolor sit amet consectetur. Molestie 
-          a iaculis at erat pellentesque adipiscing tempor commodo.
+              4th year Computer Science student at California State University,
+              Sacramento. I'm fascinated by computing and always looking for
+              ways to learn, improve and expand my technical skills.
+              I'm excited by new opportunities and particularly interested in Cyber Security, 
+              Software Engineering, and Artificial Intelligence.
           </p>
 
-          <a href='#contact' className='btn btn-primary'  > Let's Talk</a>
+         
+          <a href='#contact' className='btn btn-secondary'  > Let's Talk</a>
         </div>
       </div>
     </section>

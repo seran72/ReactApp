@@ -1,6 +1,7 @@
 import React from 'react'
 import './experience.css'
 import { BsPatchCheckFill } from 'react-icons/bs'
+import {ImStarFull} from 'react-icons/im'
 
  const Experience = () => {
   return (
@@ -14,7 +15,7 @@ import { BsPatchCheckFill } from 'react-icons/bs'
             <div className='experience_content'>
 
                 <article className='experience_details'>
-                  <BsPatchCheckFill className='experience_details-icon' className='experience_details-icon'/>
+                  <BsPatchCheckFill className='experience_details-icon' />
                   <div>
                   <h4>HTML</h4>
                   <small className='text-light'>Experienced</small>
@@ -31,40 +32,47 @@ import { BsPatchCheckFill } from 'react-icons/bs'
                   <BsPatchCheckFill className='experience_details-icon'/>
                   <div>
                   <h4>JS</h4>
-                  <small className='text-light'>Experienced</small>
+                  <small className='text-light'>Medium</small>
                   </div>
                 </article>
                 <article className='experience_details'>
                   <BsPatchCheckFill className='experience_details-icon'/>
                   <div>
                   <h4>React</h4>
-                  <small className='text-light'>Experienced</small>
+                  <small className='text-light'>Medium</small>
                   </div>
                 </article>
                 <article className='experience_details'>
                   <BsPatchCheckFill className='experience_details-icon'/>
                   <div>
-                  <h4>TypeScript</h4>
-                  <small className='text-light'>Experienced</small>
+                  <h4>UI/UX</h4>
+                  <small className='text-light'>Medium</small>
+                  </div>
+                </article>
+                <article className='experience_details'>
+                  <BsPatchCheckFill className='experience_details-icon'/>
+                  <div>
+                  <h4>GitHub</h4>
+                  <small className='text-light'>Medium</small>
                   </div>
                 </article>
             </div>
         </div>
         <div className='experience_backend'>
-        <h3>Back End Development</h3>
+        <h3>SWE/ML-Data Science</h3>
             <div className='experience_content'>
 
                 <article className='experience_details'>
                   <BsPatchCheckFill className='experience_details-icon'/>
                   <div>
-                  <h4>PHP</h4>
+                  <h4>Java</h4>
                   <small className='text-light'>Experienced</small>
                   </div>
                 </article>
                 <article className='experience_details'>
                   <BsPatchCheckFill className='experience_details-icon'/>
                   <div>
-                  <h4>C++</h4>
+                  <h4>Tensorflow</h4>
                   <small className='text-light'>Experienced</small>
                   </div>
                 </article>
@@ -78,7 +86,7 @@ import { BsPatchCheckFill } from 'react-icons/bs'
                 <article className='experience_details'>
                   <BsPatchCheckFill className='experience_details-icon'/>
                   <div>
-                  <h4>Machine Learning</h4>
+                  <h4>Linear Algebra</h4>
                   <small className='text-light'>Experienced</small>
                   </div>
                 </article>
@@ -86,9 +94,17 @@ import { BsPatchCheckFill } from 'react-icons/bs'
                   <BsPatchCheckFill className='experience_details-icon'/>
                   <div>
                   <h4>Data Science</h4>
-                  <small className='text-light'>Experienced</small>
+                  <small className='text-light'>Medium</small>
                   </div>
                 </article>
+                <article className='experience_details'>
+                  <BsPatchCheckFill className='experience_details-icon'/>
+                  <div>
+                  <h4>Machine Learning</h4>
+                  <small className='text-light'>Medium</small>
+                  </div>
+                </article>
+                
             </div>
         </div>
       </div>
